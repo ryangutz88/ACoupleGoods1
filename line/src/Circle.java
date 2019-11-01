@@ -20,6 +20,10 @@ public class Circle{
         double c =2*r*Math.PI;
         return c;
     }
-
+    public double SA()
+    {
+        double SA =c1*area*Math.PI;
+        return SA;
+    }
 
 }
