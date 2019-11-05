@@ -2,15 +2,15 @@ public class CylinderTest {
     public static void main(String[] args) {
 
         Cylinder cyl = new Cylinder(5,2);
-        double vol = cyl.vol();
+        double vol = cyl.Vol();
         System.out.println("radius = 5 height = 2 volume = " + vol);
-        double sa = cyl.sa();
+        double sa = cyl.SA();
         System.out.println("surface area = " + sa);
 
         Cylinder cyl2 = new Cylinder(8,6);
-        vol = cyl2.vol();
+        vol = cyl2.Vol();
         System.out.println("radius = 8 height = 6 volume = " + vol);
-        sa = cyl2.sa();
+        sa = cyl2.SA();
         System.out.println("surface area = " + sa);
     }
 }
